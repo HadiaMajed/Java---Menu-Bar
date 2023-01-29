@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="707.0" prefWidth="1206.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="359.0" prefHeight="122.0" prefWidth="536.0" text="Artists that I listen to:" textAlignment="CENTER">
+         <font>
+            <Font name="Imprint MT Shadow" size="52.0" />
+         </font>
+      </Label>
+      
+      
+      <ImageView fitHeight="443.0" fitWidth="483.0" layoutX="27.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@artist/Jamie.jpg" /> 
+         </image>
+      </ImageView>
+      
+      
+      <ImageView fitHeight="443.0" fitWidth="354.0" layoutX="431.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@artist/Jay-W.jpg" /> 
+         </image>
+      </ImageView>
+      <ImageView fitHeight="443.0" fitWidth="344.0" layoutX="840.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@artist/Sik-k-Green.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="122.0" layoutY="604.0" prefHeight="68.0" prefWidth="146.0" text="Jamie">
+         <font>
+            <Font name="Imprint MT Shadow" size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="497.0" layoutY="601.0" prefHeight="75.0" prefWidth="222.0" text="Jay Park">
+         <font>
+            <Font name="Imprint MT Shadow" size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="939.0" layoutY="607.0" text="Sik-K" textFill="#0f142e">
+         <font>
+            <Font name="Imprint MT Shadow" size="52.0" />
+         </font>
+      </Label>
+      
+      
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="893.0" prefWidth="1324.0" styleClass="vbox" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.finalproject.aboutController">
+   <children>
+      <Label prefHeight="71.0" prefWidth="425.0" text="My Hobbies:" translateX="5.0" underline="true">
+         <font>
+            <Font name="Imprint MT Shadow" size="49.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView" prefHeight="178.0" prefWidth="791.0" />
+      <AnchorPane prefHeight="612.0" prefWidth="1300.0">
+         <children>
+            
+                  <ImageView fitHeight="282.0" fitWidth="516.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@about/Karasuno%20Crows%20Haikyuu.png" /> 
+                     </image>
+                  </ImageView>
+            <ImageView fitHeight="254.0" fitWidth="369.0" layoutX="479.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@about/family.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="247.0" fitWidth="440.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@about/Haikyuu.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="300.0" fitWidth="409.0" layoutX="891.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@about/badminton.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="260.0" fitWidth="538.0" layoutX="785.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@about/books.png" />
+               </image>
+            </ImageView>
+            
+            
+            
+            
+         </children>
+      </AnchorPane>
+   </children>
+   
+   
+</VBox>

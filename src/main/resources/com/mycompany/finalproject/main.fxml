@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="800.0" minWidth="1280.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #abc4ff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.finalproject.MainController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Intro">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#myself" text="Information about myself" />
+                  <MenuItem mnemonicParsing="false" onAction="#artist" text="Favorite Artists" />
+                  <MenuItem mnemonicParsing="false" onAction="#about" text="List of Hobbies" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Education">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#education" text="History of Education " />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Contact">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#contact" text="My Contact Page" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <VBox fx:id="contentPane" alignment="TOP_CENTER" prefHeight="77.0" prefWidth="1030.0">
+         <children>
+            <Label text="Final Project by: Hadia Majed" textAlignment="CENTER" textFill="PURPLE" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial Black" size="63.0" />
+               </font>
+            </Label>
+            <AnchorPane prefHeight="539.0" prefWidth="1280.0">
+               <children>
+                  <ImageView fitHeight="382.0" fitWidth="223.0" layoutX="173.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@main/Pink.JPG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="388.0" fitWidth="218.0" layoutX="888.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@main/Green.JPG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="388.0" fitWidth="219.0" layoutX="547.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@main/Starbucks.JPG" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</VBox>
